@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DogCare Tatuí — Creche, Banho & Tosa, Adestramento</title>
+  <meta name="description" content="DogCare Tatuí — creche canina, banho e tosa, adestramento em Tatuí, SP. Ambiente seguro, profissional e carinhoso para seu pet." />
+  <link rel="canonical" href="https://www.dogcaretatui.com.br/" />
+  <meta name="theme-color" content="#ff9900" />
+
+  <!-- Open Graph / Social -->
+  <meta property="og:site_name" content="DogCare Tatuí" />
+  <meta property="og:title" content="DogCare Tatuí — Creche, Banho & Tosa, Adestramento" />
+  <meta property="og:description" content="Creche, banho e tosa, adestramento por profissionais em Tatuí, SP. Ambiente seguro e acolhedor para seu pet." />
+  <meta property="og:type" content="local_business" />
+  <meta property="og:url" content="https://www.dogcaretatui.com.br/" />
+  <!-- Ajuste o og:image para a imagem real do seu negócio -->
+  <meta property="og:image" content="https://www.dogcaretatui.com.br/imagens/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Performance: carregar CSS externo (coloque o arquivo style.css no mesmo diretório) -->
+  <link rel="preload" href="style.css" as="style">
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Structured Data: LocalBusiness (melhora SEO local) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "PetStore",
+    "name": "DogCare Tatuí",
+    "description": "Creche canina, banho e tosa, adestramento em Tatuí, SP.",
+    "url": "https://www.dogcaretatui.com.br/",
+    "telephone": "+55159XXXXXXXX",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Tatuí",
+      "addressRegion": "SP",
+      "addressCountry": "BR"
+    },
+    "openingHours": ["Mo-Fr 07:30-18:30", "Sa 08:00-11:00"],
+    "image": ["https://www.dogcaretatui.com.br/imagens/og-image.jpg"]
+  }
+  </script>
+
+  <meta name="robots" content="index, follow" />
+</head>
+<body>
+  <!-- Skip link para navegação por teclado -->
+  <a class="skip-link" href="#main">Ir para o conteúdo principal</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio" aria-label="Ir para o início">
+        <span class="logo" aria-hidden="true">🐶</span>
+        <span class="brand-title">DogCare Tatuí</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu" aria-label="Abrir menu">
+        ☰
+      </button>
+
+      <nav id="primary-menu" class="nav" role="navigation" aria-label="Menu principal">
+        <ul class="nav-list">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#horarios">Horários</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="site-main" tabindex="-1">
+    <section id="inicio" class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-card">
+          <h1 id="hero-title">Bem-vindo ao <span class="accent">DogCare Tatuí</span></h1>
+          <p class="lead">Espaço acolhedor, seguro e supervisionado para seu pet — com creche, banho & tosa e adestramento por profissionais.</p>
+
+          <ul class="hero-cta-list" aria-hidden="false">
+            <li><strong>Horário:</strong> Seg–Sex 07:30–18:30</li>
+            <li><strong>Telefone:</strong> <a href="tel:+55159XXXXXXXX"> (15) 9XXXX-XXXX</a></li>
+            <li><strong>Endereço:</strong> Tatuí, SP</li>
+          </ul>
+
+          <div class="hero-actions">
+            <a class="button primary" href="#contato">Agende uma visita</a>
+            <a class="button ghost" href="https://wa.me/55159XXXXXXXX" target="_blank" rel="noopener noreferrer">Abrir WhatsApp</a>
+          </div>
+        </div>
+
+        <aside class="hero-aside card" aria-label="Contato rápido">
+          <h2 class="visually-hidden">Contato rápido</h2>
+          <p><strong>Email:</strong> <a href="mailto:contato@dogcaretatui.com.br">contato@dogcaretatui.com.br</a></p>
+          <p><strong>Telefone:</strong> <a href="tel:+55159XXXXXXXX">(15) 9XXXX-XXXX</a></p>
+          <p class="small">Atendimento por WhatsApp no horário comercial.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="sobre" class="container section" aria-labelledby="sobre-title">
+      <h2 id="sobre-title">Sobre o DogCare Tatuí</h2>
+      <p>Somos uma equipe especializada em bem-estar animal, oferecendo creche, banho e tosa profissional e aulas de adestramento em um ambiente seguro, limpo e supervisionado.</p>
+    </section>
+
+    <section id="servicos" class="container section" aria-labelledby="servicos-title">
+      <h2 id="servicos-title">Nossos Serviços</h2>
+
+      <div class="cards-grid">
+        <article class="servico" aria-labelledby="servico-creche">
+          <h3 id="servico-creche">Creche 🐾</h3>
+          <p>Ambiente supervisionado para brincar, socializar e descansar.</p>
+          <p><strong>R$ 50,00 / dia</strong></p>
+          <picture>
+            <source srcset="imagens/creche-400.webp 400w, imagens/creche-800.webp 800w" type="image/webp">
+            <img src="imagens/creche-800.jpg" alt="Vários cães brincando em ambiente de creche supervisonado" width="800" height="533" loading="lazy" decoding="async">
+          </picture>
+        </article>
+
+        <article class="servico" aria-labelledby="servico-banho">
+          <h3 id="servico-banho">Banho & Tosa 🛁</h3>
+          <p>Banho relaxante e tosa profissional com produtos seguros.</p>
+          <p><strong>Banho a partir de R$ 40 — Tosa a partir de R$ 60</strong></p>
+          <picture>
+            <source srcset="imagens/banho-400.webp 400w, imagens/banho-800.webp 800w" type="image/webp">
+            <img src="imagens/banho-800.jpg" alt="Cão recebendo banho profissional" width="800" height="533" loading="lazy" decoding="async">
+          </picture>
+        </article>
+
+        <article class="servico" aria-labelledby="servico-adestramento">
+          <h3 id="servico-adestramento">Adestramento 🎓</h3>
+          <p>Aulas com adestradores certificados, foco em comportamento e obediência.</p>
+          <p><strong>R$ 80,00 por aula</strong></p>
+          <picture>
+            <source srcset="imagens/adestramento-400.webp 400w, imagens/adestramento-800.webp 800w" type="image/webp">
+            <img src="imagens/adestramento-800.jpg" alt="Sessão de adestramento de cães com treinador" width="800" height="533" loading="lazy" decoding="async">
+          </picture>
+        </article>
+      </div>
+    </section>
+
+    <section id="horarios" class="container section two-col" aria-labelledby="horarios-title">
+      <div class="card">
+        <h2 id="horarios-title">Horários de Funcionamento</h2>
+        <ul class="hours" aria-live="polite">
+          <li><strong>Segunda a Sexta:</strong> 07:30 — 18:30</li>
+          <li><strong>Sábado:</strong> 08:00 — 11:00</li>
+          <li><strong>Domingo:</strong> Fechado</li>
+        </ul>
+      </div>
+
+      <aside class="card" aria-labelledby="mapa-title">
+        <h3 id="mapa-title">Nossa Localização</h3>
+        <p class="small">Clique para abrir no Google Maps.</p>
+        <div class="map" role="region" aria-label="Mapa — DogCare de Tatuí">
+          <!-- Mantive iframe com lazy loading; substitua 'place_id' e 'key' por valores reais se desejar -->
+          <iframe
+            title="Mapa DogCare de Tatuí"
+            loading="lazy"
+            width="100%"
+            height="220"
+            style="border:0"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.0000000000005!2d-47.82800000000001!3d-23.351000000000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0000000000000000!2sTatu%C3%AD!5e0!3m2!1spt-BR!2sbr!4v0000000000000"
+            referrerpolicy="no-referrer-when-downgrade" aria-hidden="false"></iframe>
+        </div>
+      </aside>
+    </section>
+
+    <section id="contato" class="container section card" aria-labelledby="contato-title">
+      <h2 id="contato-title">Contato & Agendamento</h2>
+
+      <!-- Formulário acessível: labels explícitos, aria-required, autocomplete -->
+      <form class="contact-form" action="https://formspree.io/f/YOUR_FORMSPREE_ENDPOINT" method="POST" novalidate>
+        <div class="form-row">
+          <label for="nome">Seu nome</label>
+          <input id="nome" name="nome" type="text" placeholder="Seu nome completo" autocomplete="name" required aria-required="true">
+        </div>
+
+        <div class="form-row">
+          <label for="email">Seu e-mail</label>
+          <input id="email" name="email" type="email" placeholder="seu@email.com" autocomplete="email" required aria-required="true">
+        </div>
+
+        <div class="form-row">
+          <label for="telefone">Telefone (opcional)</label>
+          <input id="telefone" name="telefone" type="tel" placeholder="(15) 9XXXX-XXXX" pattern="\+?\d{8,15}" autocomplete="tel">
+        </div>
+
+        <div class="form-row">
+          <label for="mensagem">Sua mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Como podemos ajudar?" required aria-required="true"></textarea>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="button primary">Enviar mensagem</button>
+          <a class="button ghost" href="https://wa.me/55159XXXXXXXX" target="_blank" rel="noopener noreferrer">Chamar no WhatsApp</a>
+        </div>
+
+        <p class="small">Os dados enviados serão usados apenas para contato. <a href="/privacidade">Política de privacidade</a>.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> DogCare de Tatuí — Todos os direitos reservados.</p>
+      <nav aria-label="Links do rodapé">
+        <ul class="footer-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante WhatsApp com aria-label -->
+  <a class="whatsapp-float" href="https://wa.me/55159XXXXXXXX" target="_blank" aria-label="Abrir WhatsApp" rel="noopener noreferrer">💬</a>
+
+  <!-- Script leve: apenas para ano dinâmico e toggle do menu -->
+  <script>
+    // Inserir ano no rodapé
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Toggle simples para menu (acessível)
+    (function(){
+      const btn = document.querySelector('.nav-toggle');
+      const menu = document.getElementById('primary-menu');
+      btn.addEventListener('click', function(){
+        const expanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !expanded);
+        menu.classList.toggle('open');
+      });
+    })();
