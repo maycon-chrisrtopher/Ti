@@ -30,7 +30,7 @@
     "name": "DogCare Tatuí",
     "description": "Creche canina, banho e tosa, adestramento em Tatuí, SP.",
     "url": "https://www.dogcaretatui.com.br/",
-    "telephone": "+55159XXXXXXXX",
+    "telephone": "+55(15)99XXXX",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Tatuí",
