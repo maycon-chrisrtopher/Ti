@@ -1,2 +1,0 @@
-# Ti
-Código experimental 
